@@ -9,6 +9,8 @@ import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
 import './App.css';
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0; 
+
 const particlesOptions = {
   particles: {
     number: {
